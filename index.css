@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------------------------------*/
+
+
+html{
+    font-size: 62.5px;
+}
+
+body{ 
+	font-family: monospace;
+	max-width:100%
+
+}
+
+
+header {
+	font-family: 'Chelsea Market', regular;
+	height: 10%;
+	font-size: 1rem;
+	position:left;
+	/* max-width: 100%; */
+	line-height: 1.5;
+	
+}
+header img{
+	border-radius: 50%;
+	max-height: 55%;
+	max-width: 55%;
+	display:inline-block;
+	padding:5% 10% 5% 10%;
+	margin-left:30%;
+	object-fit: cover;
+}
+/* header p {} */
+
+
+
+h2{
+	font-family: monospace;
+	font-size: 2rem;
+	position: center;
+	max-width: 30%;
+	float:left;
+	margin-right: 11%;
+	margin-left: 11%;
+}
+
+p{
+	font-size: 0.3rem;
+
+}
+
+button{ 
+	font-size: .25rem;
+	font-family: monospace;
+	padding:2% 3%;
+	/* margin-right: 7%;
+	margin-left: 7%; */
+	text-align: center;
+	border:none;
+	border-radius:10px;
+	width:2rem;
+	height:0.8rem;
+	color:whitesmoke;
+
+}
+.plan{
+	background-color: #FF764E;
+}
+.learn{
+	background-color:#5ED3EB
+}
+.getInv{
+	background-color:#FFCD69
+}
+
+nav{
+	display:inline-block;
+	width: 80%;
+	Margin: 0 8%;
+	padding:2%;
+
+	/* box-sizing: content-box; */
+	
+
+
+	
+
+
+}
+.firstSection{
+	/* max-width: 100%;  */
+
+	
+}
+h1{
+	/* max-width: 100%; */
+	float:left;
+	font-size:0.76rem;
+	padding:3%;
+	margin:2% 5%;
+}
+
+section{
+	/* display:inline-block; */
+}
+#mustardBlurb{
+	/* max-width: 100%; */
+	position: center;
+	line-height:.25rem; 
+	background-color:#DDB9A3;
+	color:white;
+	margin:3% 5%;
+	padding:2%;
+	text-align: center;
+	opacity:80%;
+}
+
+
+.midsection {
+	display:inline-block;
+	box-align:center;
+	text-align:center;
+	margin: right 30%;
+	margin: left 30%;
+
+}
+
+img{
+	width: 80%;
+	/* height: 100px; */
+
+}
+
+.midsection p {
+	width:30%;
+	text-align: center;
+	margin: auto;
+	padding-bottom:5%
+}
+footer {
+	display:inline-block;
+	object-position: center;
+	width: 100%;
+	margin: none;
+	background-color:#F9E7DC;
+	border: none;
+	padding-bottom: 3%;
+
+	/* box-sizing: content-box; */
+	
+	
+}
+#headimg{
+	display: inline-block;
+	max-width:40%;
+	position:center;
+	
+}
+#headtext {
+	display: inline-block;
+	float: right;
+	max-width: 60%;
+	
+}
+#headtext p{
+	font-size: 0.3rem;
+	font-family: monospace;
+	text-align: center;
+	width: 85%;
+	 float:none;
+	/* padding-right: 30%; */
+	/* margin-left:3%; */
+	 
+}
+#alwaysOpen{
+	width: 100%;
+	margin: 0%
+	/* padding: 3% 15%; */
+	/* margin-right:5%;
+	margin-left: 5% */
+}
+.container {
+	width:100%;
+	height:200px;
+
+}
+#footimg{
+	/* position: static; */
+	/* display: block; */
+	/* max-width:100%; */
+	width: 100%;
+	height: 225px;
+	object-fit: cover;
+	object-position: 10% 20%;
+	margin:none;
+	padding-bottom:2%;
+}
+
+.midsection img{
+	max-height: 20%;
+	max-width: 20%;
+	padding-bottom:3%;
+}
+span{
+	font-weight: bold;
+}
